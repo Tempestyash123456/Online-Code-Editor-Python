@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: code-editor
-          image: "tempestyashdubey/code-editor:v1"
+        image: "tempestyashdubey/code-editor:v1"
         ports:
         - containerPort: 3000
         resources:
