@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: code-editor-service
+spec:
+  selector:
+    app: code-editor
+  ports:
+  - port: 3000
+    targetPort: 3000
